@@ -102,5 +102,8 @@ figcaption {
 .clearfix:after {
   content: ".";
   display: block;
-  
+  clear: both;
+  visibility: none;
+  height: 0;
+  line-height: 0;
 }
